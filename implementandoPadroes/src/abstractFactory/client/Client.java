@@ -12,7 +12,7 @@ public class Client {
 		//CountRulesAbstractFactory rules = new BrasilRulesAbstractFactory();
 		CountRulesAbstractFactory rules = new USRulesAbstractFactory();
 		IphoneFactory factory = new IphoneXFactory(rules);
-		factory.iPhoneOrder("highEnd");
+		factory.iPhoneOrder("standard");
 
 	}
 
